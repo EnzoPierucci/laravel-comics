@@ -1,0 +1,7 @@
+@use "./variables" as *;
+
+@mixin active-link {
+    color: $color-active-link;
+    border-bottom: 5px solid $color-active-link;
+    line-height: 138px;
+}
